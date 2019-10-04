@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dedede;
+}
+
+.homepage-card {
+    max-width: 800px;
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    background-color: #c0bebe;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px grey;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 2em;
+}
